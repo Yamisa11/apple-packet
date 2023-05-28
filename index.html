@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>apple packet price planner</title>
+</head>
+<body>
+    <div class="container">
+       <div class="top-inputs">
+        <div>Cost price for a box of apples:<input type="text" name="" id="cost"></div>
+        <div>Number of apples in the box:<input type="text" name="" id="number"></div>
+        <div>The packet size apples are sold in:<input type="text" name="" id="packet"></div>
+        <div>Required profit% :<input type="text" name="" id="percent"></div>
+       </div>
+
+       <button class="calculate">Calculate</button>
+
+      <div>Number of packets: <span class="numPackets"></span><span class="remainder"></span></div>
+      <div>Cost price per apple: <span class="costApple"></span></div>
+      <div>Cost price per packet: <span class="costPacket"></span></div>
+      <div>Recommended packet price: <span class="recommended"></span></div>
+        
+    </div>
+    <script src="./Factory-function/apple-packet.factory.js"></script>
+    <script src="./DOM/apple-packet.js"></script>
+</body>
+</html>
